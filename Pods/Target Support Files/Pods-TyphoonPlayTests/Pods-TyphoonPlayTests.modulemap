@@ -1,0 +1,6 @@
+framework module Pods_TyphoonPlayTests {
+  umbrella header "Pods-TyphoonPlayTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

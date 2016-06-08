@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Typhoon Play.xcscheme</key>
+		<key>Pods-TyphoonPlay.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Typhoon PlayTests.xcscheme</key>
+		<key>Pods-TyphoonPlayTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>714DC75022F5CB56B975C2845A23D4CC</key>
+		<key>2A498545AECE2A5DB735588FBFF16081</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>778831B15F5718BE3329662A92E59635</key>
+		<key>859221535F26A8DAC17123A1D8B56873</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DAFA7BBA6D7EAF96B0B4CD514D5F4674</key>
+		<key>9D13ED77F64E92018BB24AD64B95517B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -9,7 +9,7 @@
 import Foundation
 import Typhoon
 
-@objc protocol ServiceProtocol:NSObjectProtocol {
+@objc public protocol ServiceProtocol:NSObjectProtocol {
     func family() -> [String:Person]
     func addresses(person: Person) -> [String:Address]
 }
@@ -29,7 +29,7 @@ import Typhoon
     }
 }
 
-@objc class Address: NSObject {
+@objc public class Address: NSObject {
     let street1:String
     let street2:String?
     let suburb:String
@@ -45,7 +45,7 @@ import Typhoon
     }
 }
 
-@objc class Person:NSObject  {
+@objc public class Person:NSObject  {
     let firstName:String!
     let middleName:String?
     let surname:String!

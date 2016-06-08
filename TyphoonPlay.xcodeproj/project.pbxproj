@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		171FB55B4F1C2C3AF39D8A75 /* Pods_Typhoon_Play.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53CE9299D1FCD8250EEBC30 /* Pods_Typhoon_Play.framework */; };
-		5BEC96F7F14E4C2A5D309223 /* Pods_Typhoon_PlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACA0686C953362C4AC225B2 /* Pods_Typhoon_PlayTests.framework */; };
+		6DB11C9C1C9A26CE78F3E067 /* Pods_TyphoonPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0232901A645F1121C9DA80D4 /* Pods_TyphoonPlay.framework */; };
 		802985841D00C4360072BB1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802985831D00C4360072BB1E /* AppDelegate.swift */; };
 		802985861D00C4360072BB1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802985851D00C4360072BB1E /* ViewController.swift */; };
 		802985891D00C4360072BB1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802985871D00C4360072BB1E /* Main.storyboard */; };
 		8029858B1D00C4360072BB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8029858A1D00C4360072BB1E /* Assets.xcassets */; };
 		8029858E1D00C4360072BB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8029858C1D00C4360072BB1E /* LaunchScreen.storyboard */; };
-		802985991D00C4360072BB1E /* Typhoon_PlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802985981D00C4360072BB1E /* Typhoon_PlayTests.swift */; };
 		802985A41D00C6410072BB1E /* FakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802985A31D00C6410072BB1E /* FakeService.swift */; };
 		802985A61D00CC190072BB1E /* ViewControllerAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802985A51D00CC190072BB1E /* ViewControllerAdapter.swift */; };
 		802985A81D00DC570072BB1E /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802985A71D00DC560072BB1E /* ApplicationAssembly.swift */; };
+		803A207F1D07EF800075E0BF /* ViewModelControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A207E1D07EF800075E0BF /* ViewModelControllerTest.swift */; };
+		803A20811D07F56D0075E0BF /* Typhoon_PlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A20801D07F56D0075E0BF /* Typhoon_PlayTests.swift */; };
+		803A20B71D07FC640075E0BF /* TyphoonPlayUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A20B61D07FC640075E0BF /* TyphoonPlayUnitTests.swift */; };
 		80BE8A711D07BA0F00CD6B26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BE8A701D07BA0F00CD6B26 /* UIKit.framework */; };
-		80BE8A741D07BA6500CD6B26 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BE8A731D07BA6500CD6B26 /* TestController.m */; };
+		9F6971B2DE5B16E2824D0F6F /* Pods_TyphoonPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F70BF313D7D97E91EC320CE /* Pods_TyphoonPlayTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +29,22 @@
 			containerPortal = 802985781D00C4350072BB1E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8029857F1D00C4350072BB1E;
-			remoteInfo = "Typhoon Play";
+			remoteInfo = TyphoonPlay;
+		};
+		803A20B91D07FC640075E0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802985781D00C4350072BB1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8029857F1D00C4350072BB1E;
+			remoteInfo = TyphoonPlay;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ACA0686C953362C4AC225B2 /* Pods_Typhoon_PlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Typhoon_PlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59C2CEF6FC2D474948CC7004 /* Pods-Typhoon PlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon PlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Typhoon PlayTests/Pods-Typhoon PlayTests.debug.xcconfig"; sourceTree = "<group>"; };
-		59ED4A45BBADBB4D9289A66A /* Pods-Typhoon Play.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon Play.release.xcconfig"; path = "Pods/Target Support Files/Pods-Typhoon Play/Pods-Typhoon Play.release.xcconfig"; sourceTree = "<group>"; };
+		0232901A645F1121C9DA80D4 /* Pods_TyphoonPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TyphoonPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F70BF313D7D97E91EC320CE /* Pods_TyphoonPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TyphoonPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C2CEF6FC2D474948CC7004 /* Pods-TyphoonPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonPlayTests/Pods-TyphoonPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59ED4A45BBADBB4D9289A66A /* Pods-TyphoonPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonPlay/Pods-TyphoonPlay.release.xcconfig"; sourceTree = "<group>"; };
 		802985801D00C4360072BB1E /* TyphoonPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		802985831D00C4360072BB1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		802985851D00C4360072BB1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,18 +53,19 @@
 		8029858D1D00C4360072BB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8029858F1D00C4360072BB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		802985941D00C4360072BB1E /* TyphoonPlay.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonPlay.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		802985981D00C4360072BB1E /* Typhoon_PlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typhoon_PlayTests.swift; sourceTree = "<group>"; };
 		8029859A1D00C4360072BB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		802985A31D00C6410072BB1E /* FakeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FakeService.swift; path = ../FakeService.swift; sourceTree = "<group>"; };
 		802985A51D00CC190072BB1E /* ViewControllerAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAdapter.swift; sourceTree = "<group>"; };
 		802985A71D00DC560072BB1E /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		803A207E1D07EF800075E0BF /* ViewModelControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelControllerTest.swift; sourceTree = "<group>"; };
+		803A20801D07F56D0075E0BF /* Typhoon_PlayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typhoon_PlayTests.swift; sourceTree = "<group>"; };
+		803A20B41D07FC640075E0BF /* TyphoonPlayUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonPlayUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		803A20B61D07FC640075E0BF /* TyphoonPlayUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyphoonPlayUnitTests.swift; sourceTree = "<group>"; };
+		803A20B81D07FC640075E0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80BE8A6A1D07B9B200CD6B26 /* TyphoonPlay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TyphoonPlay-Bridging-Header.h"; sourceTree = "<group>"; };
 		80BE8A701D07BA0F00CD6B26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		80BE8A721D07BA6500CD6B26 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
-		80BE8A731D07BA6500CD6B26 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
-		D53CE9299D1FCD8250EEBC30 /* Pods_Typhoon_Play.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Typhoon_Play.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD3B1C5F22B26BA602732D79 /* Pods-Typhoon PlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon PlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Typhoon PlayTests/Pods-Typhoon PlayTests.release.xcconfig"; sourceTree = "<group>"; };
-		E200D1E390A3B778210DDE85 /* Pods-Typhoon Play.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon Play.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Typhoon Play/Pods-Typhoon Play.debug.xcconfig"; sourceTree = "<group>"; };
+		DD3B1C5F22B26BA602732D79 /* Pods-TyphoonPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonPlayTests/Pods-TyphoonPlayTests.release.xcconfig"; sourceTree = "<group>"; };
+		E200D1E390A3B778210DDE85 /* Pods-TyphoonPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonPlay/Pods-TyphoonPlay.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171FB55B4F1C2C3AF39D8A75 /* Pods_Typhoon_Play.framework in Frameworks */,
+				6DB11C9C1C9A26CE78F3E067 /* Pods_TyphoonPlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +82,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				80BE8A711D07BA0F00CD6B26 /* UIKit.framework in Frameworks */,
-				5BEC96F7F14E4C2A5D309223 /* Pods_Typhoon_PlayTests.framework in Frameworks */,
+				9F6971B2DE5B16E2824D0F6F /* Pods_TyphoonPlayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803A20B11D07FC640075E0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +101,7 @@
 			children = (
 				802985821D00C4360072BB1E /* TyphoonPlay */,
 				802985971D00C4360072BB1E /* TyphoonPlayTests */,
+				803A20B51D07FC640075E0BF /* TyphoonPlayUnitTests */,
 				802985811D00C4360072BB1E /* Products */,
 				CAE5DEA8E88BE872896E9BEB /* Pods */,
 				9D5E4D2E6CCDEA2EA4EC71E1 /* Frameworks */,
@@ -95,6 +113,7 @@
 			children = (
 				802985801D00C4360072BB1E /* TyphoonPlay.app */,
 				802985941D00C4360072BB1E /* TyphoonPlay.xctest */,
+				803A20B41D07FC640075E0BF /* TyphoonPlayUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,29 +131,35 @@
 				802985A51D00CC190072BB1E /* ViewControllerAdapter.swift */,
 				802985A71D00DC560072BB1E /* ApplicationAssembly.swift */,
 				80BE8A6A1D07B9B200CD6B26 /* TyphoonPlay-Bridging-Header.h */,
-				80BE8A721D07BA6500CD6B26 /* TestController.h */,
-				80BE8A731D07BA6500CD6B26 /* TestController.m */,
 			);
-			name = TyphoonPlay;
-			path = "Typhoon Play";
+			path = TyphoonPlay;
 			sourceTree = "<group>";
 		};
 		802985971D00C4360072BB1E /* TyphoonPlayTests */ = {
 			isa = PBXGroup;
 			children = (
-				802985981D00C4360072BB1E /* Typhoon_PlayTests.swift */,
+				803A20801D07F56D0075E0BF /* Typhoon_PlayTests.swift */,
 				8029859A1D00C4360072BB1E /* Info.plist */,
+				803A207E1D07EF800075E0BF /* ViewModelControllerTest.swift */,
 			);
-			name = TyphoonPlayTests;
-			path = "Typhoon PlayTests";
+			path = TyphoonPlayTests;
+			sourceTree = "<group>";
+		};
+		803A20B51D07FC640075E0BF /* TyphoonPlayUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				803A20B61D07FC640075E0BF /* TyphoonPlayUnitTests.swift */,
+				803A20B81D07FC640075E0BF /* Info.plist */,
+			);
+			path = TyphoonPlayUnitTests;
 			sourceTree = "<group>";
 		};
 		9D5E4D2E6CCDEA2EA4EC71E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				80BE8A701D07BA0F00CD6B26 /* UIKit.framework */,
-				D53CE9299D1FCD8250EEBC30 /* Pods_Typhoon_Play.framework */,
-				0ACA0686C953362C4AC225B2 /* Pods_Typhoon_PlayTests.framework */,
+				0232901A645F1121C9DA80D4 /* Pods_TyphoonPlay.framework */,
+				0F70BF313D7D97E91EC320CE /* Pods_TyphoonPlayTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,10 +167,10 @@
 		CAE5DEA8E88BE872896E9BEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E200D1E390A3B778210DDE85 /* Pods-Typhoon Play.debug.xcconfig */,
-				59ED4A45BBADBB4D9289A66A /* Pods-Typhoon Play.release.xcconfig */,
-				59C2CEF6FC2D474948CC7004 /* Pods-Typhoon PlayTests.debug.xcconfig */,
-				DD3B1C5F22B26BA602732D79 /* Pods-Typhoon PlayTests.release.xcconfig */,
+				E200D1E390A3B778210DDE85 /* Pods-TyphoonPlay.debug.xcconfig */,
+				59ED4A45BBADBB4D9289A66A /* Pods-TyphoonPlay.release.xcconfig */,
+				59C2CEF6FC2D474948CC7004 /* Pods-TyphoonPlayTests.debug.xcconfig */,
+				DD3B1C5F22B26BA602732D79 /* Pods-TyphoonPlayTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -169,7 +194,7 @@
 			dependencies = (
 			);
 			name = TyphoonPlay;
-			productName = "Typhoon Play";
+			productName = TyphoonPlay;
 			productReference = 802985801D00C4360072BB1E /* TyphoonPlay.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -190,8 +215,26 @@
 				802985961D00C4360072BB1E /* PBXTargetDependency */,
 			);
 			name = TyphoonPlayTests;
-			productName = "Typhoon PlayTests";
+			productName = TyphoonPlayTests;
 			productReference = 802985941D00C4360072BB1E /* TyphoonPlay.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		803A20B31D07FC640075E0BF /* TyphoonPlayUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803A20BD1D07FC640075E0BF /* Build configuration list for PBXNativeTarget "TyphoonPlayUnitTests" */;
+			buildPhases = (
+				803A20B01D07FC640075E0BF /* Sources */,
+				803A20B11D07FC640075E0BF /* Frameworks */,
+				803A20B21D07FC640075E0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				803A20BA1D07FC640075E0BF /* PBXTargetDependency */,
+			);
+			name = TyphoonPlayUnitTests;
+			productName = TyphoonPlayUnitTests;
+			productReference = 803A20B41D07FC640075E0BF /* TyphoonPlayUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,9 +249,13 @@
 				TargetAttributes = {
 					8029857F1D00C4350072BB1E = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = AAWHKVX9JL;
 					};
 					802985931D00C4360072BB1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AAWHKVX9JL;
+						TestTargetID = 8029857F1D00C4350072BB1E;
+					};
+					803A20B31D07FC640075E0BF = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = AAWHKVX9JL;
 						TestTargetID = 8029857F1D00C4350072BB1E;
@@ -230,6 +277,7 @@
 			targets = (
 				8029857F1D00C4350072BB1E /* TyphoonPlay */,
 				802985931D00C4360072BB1E /* TyphoonPlayTests */,
+				803A20B31D07FC640075E0BF /* TyphoonPlayUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +300,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		803A20B21D07FC640075E0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -267,7 +322,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Typhoon PlayTests/Pods-Typhoon PlayTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TyphoonPlayTests/Pods-TyphoonPlayTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		42EBC699BA313E7A9B81C7F9 /* Embed Pods Frameworks */ = {
@@ -282,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Typhoon Play/Pods-Typhoon Play-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TyphoonPlay/Pods-TyphoonPlay-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4D91BA927C6F114CD1B9C6C6 /* Copy Pods Resources */ = {
@@ -297,7 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Typhoon Play/Pods-Typhoon Play-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TyphoonPlay/Pods-TyphoonPlay-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C0846852C4BA69CBBCFF5AC5 /* Copy Pods Resources */ = {
@@ -312,7 +367,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Typhoon PlayTests/Pods-Typhoon PlayTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TyphoonPlayTests/Pods-TyphoonPlayTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D8F346B96AF1864D416A0AED /* Check Pods Manifest.lock */ = {
@@ -353,7 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				802985A41D00C6410072BB1E /* FakeService.swift in Sources */,
-				80BE8A741D07BA6500CD6B26 /* TestController.m in Sources */,
 				802985A81D00DC570072BB1E /* ApplicationAssembly.swift in Sources */,
 				802985861D00C4360072BB1E /* ViewController.swift in Sources */,
 				802985A61D00CC190072BB1E /* ViewControllerAdapter.swift in Sources */,
@@ -365,7 +419,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802985991D00C4360072BB1E /* Typhoon_PlayTests.swift in Sources */,
+				803A20811D07F56D0075E0BF /* Typhoon_PlayTests.swift in Sources */,
+				803A207F1D07EF800075E0BF /* ViewModelControllerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803A20B01D07FC640075E0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803A20B71D07FC640075E0BF /* TyphoonPlayUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +439,11 @@
 			isa = PBXTargetDependency;
 			target = 8029857F1D00C4350072BB1E /* TyphoonPlay */;
 			targetProxy = 802985951D00C4360072BB1E /* PBXContainerItemProxy */;
+		};
+		803A20BA1D07FC640075E0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8029857F1D00C4350072BB1E /* TyphoonPlay */;
+			targetProxy = 803A20B91D07FC640075E0BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -486,39 +554,41 @@
 		};
 		8029859E1D00C4360072BB1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E200D1E390A3B778210DDE85 /* Pods-Typhoon Play.debug.xcconfig */;
+			baseConfigurationReference = E200D1E390A3B778210DDE85 /* Pods-TyphoonPlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "Typhoon Play/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TyphoonPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wilddane.Typhoon-Play";
 				PRODUCT_NAME = TyphoonPlay;
-				SWIFT_OBJC_BRIDGING_HEADER = "Typhoon Play/TyphoonPlay-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TyphoonPlay/TyphoonPlay-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8029859F1D00C4360072BB1E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59ED4A45BBADBB4D9289A66A /* Pods-Typhoon Play.release.xcconfig */;
+			baseConfigurationReference = 59ED4A45BBADBB4D9289A66A /* Pods-TyphoonPlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "Typhoon Play/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TyphoonPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wilddane.Typhoon-Play";
 				PRODUCT_NAME = TyphoonPlay;
-				SWIFT_OBJC_BRIDGING_HEADER = "Typhoon Play/TyphoonPlay-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "TyphoonPlay/TyphoonPlay-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		802985A11D00C4360072BB1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59C2CEF6FC2D474948CC7004 /* Pods-Typhoon PlayTests.debug.xcconfig */;
+			baseConfigurationReference = 59C2CEF6FC2D474948CC7004 /* Pods-TyphoonPlayTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Typhoon PlayTests/Info.plist";
+				INFOPLIST_FILE = TyphoonPlayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wilddane.Typhoon-PlayTests";
 				PRODUCT_NAME = TyphoonPlay;
@@ -528,13 +598,38 @@
 		};
 		802985A21D00C4360072BB1E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD3B1C5F22B26BA602732D79 /* Pods-Typhoon PlayTests.release.xcconfig */;
+			baseConfigurationReference = DD3B1C5F22B26BA602732D79 /* Pods-TyphoonPlayTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Typhoon PlayTests/Info.plist";
+				INFOPLIST_FILE = TyphoonPlayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wilddane.Typhoon-PlayTests";
 				PRODUCT_NAME = TyphoonPlay;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyphoonPlay.app/TyphoonPlay";
+			};
+			name = Release;
+		};
+		803A20BB1D07FC640075E0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C2CEF6FC2D474948CC7004 /* Pods-TyphoonPlayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TyphoonPlayUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilddane.TyphoonPlayUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyphoonPlay.app/TyphoonPlay";
+			};
+			name = Debug;
+		};
+		803A20BC1D07FC640075E0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TyphoonPlayUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilddane.TyphoonPlayUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyphoonPlay.app/TyphoonPlay";
 			};
 			name = Release;
@@ -568,6 +663,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		803A20BD1D07FC640075E0BF /* Build configuration list for PBXNativeTarget "TyphoonPlayUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803A20BB1D07FC640075E0BF /* Debug */,
+				803A20BC1D07FC640075E0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

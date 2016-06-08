@@ -3,11 +3,11 @@
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-target 'Typhoon Play' do
+target 'TyphoonPlay' do
 pod 'Typhoon'
 end
 
-target 'Typhoon PlayTests' do
+target 'TyphoonPlayTests' do
 pod 'Typhoon'
 end
 
