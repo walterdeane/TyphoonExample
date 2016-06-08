@@ -24,20 +24,20 @@ import Typhoon
     public dynamic func rootViewController() -> AnyObject {
         return TyphoonDefinition.withClass(ViewController.self) {
             (definition) in
-                definition.injectProperty("adapter", with:self.viewControllerAdapter())
+                definition.injectProperty(Selector("adapter"), with:self.viewControllerAdapter())
                 definition.scope = TyphoonScope.Singleton
         }
     }
     
     public dynamic func serviceProtocol() -> AnyObject {
-        return TyphoonDefinition.withClass(FakeService.self)
+        return TyphoonDefinition.withClass(RealService.self)
         
     }
     
     public dynamic func viewControllerAdapter() -> AnyObject {
         return TyphoonDefinition.withClass(ViewControllerAdapter.self) {
             (definition) in
-            definition.useInitializer("initWithViewPort:familyService:") {
+            definition.useInitializer(Selector("initWithViewPort:familyService:")) {
                 (initializer) in
                 initializer.injectParameterWith(self.rootViewController())
                 initializer.injectParameterWith(self.serviceProtocol())

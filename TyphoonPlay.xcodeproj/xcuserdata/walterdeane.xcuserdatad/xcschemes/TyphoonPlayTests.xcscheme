@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "802985931D00C4360072BB1E"
-               BuildableName = "TyphoonPlay.xctest"
+               BuildableName = "TyphoonPlayTest.xctest"
                BlueprintName = "TyphoonPlayTests"
                ReferencedContainer = "container:TyphoonPlay.xcodeproj">
             </BuildableReference>

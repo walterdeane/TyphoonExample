@@ -13,13 +13,11 @@ class ViewController: UIViewController, ViewPort {
     @IBOutlet weak var outputLabel: UILabel!
     @IBOutlet weak var outputView: UITextView!
     var adapter: ViewControllerAdapter!
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
         adapter.viewDidLoadEvent()
     }
-
     
     @IBAction func buttonPressed(sender: AnyObject) {
         adapter.buttonPressedEvent()
@@ -28,6 +26,5 @@ class ViewController: UIViewController, ViewPort {
         self.outputLabel.text = view.textFieldContent
         self.outputView.text = view.textViewContent
     }
-
 }
 

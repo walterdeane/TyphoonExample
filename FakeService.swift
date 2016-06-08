@@ -11,6 +11,8 @@ import Typhoon
 
 @objc public protocol ServiceProtocol:NSObjectProtocol {
     func family() -> [String:Person]
+    
+    optional
     func addresses(person: Person) -> [String:Address]
 }
 
@@ -58,7 +60,7 @@ import Typhoon
     }
 }
 
-@objc class FakeService : NSObject, ServiceProtocol {
+@objc class RealService : NSObject, ServiceProtocol {
     
     func family() -> [String:Person] {
         
